@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Godot for Protoyping</title>
+
+    <meta name="description" content="Presentation made with reveal.js">
+    <meta name="author" content="Mark Joseph J. Solidarios">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!-- Other Styles -->
+    <link rel="stylesheet" href="css/open-sans-fontface/open-sans.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/black.min.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/master.css">
+
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section data-background="assets/bg0.jpg">
+                <h2>Godot Engine</h2>
+                <p>for Mobile App Prototyping</p>
+                <p>
+                    <small>Mark Joseph J. Solidarios</small>
+                </p>
+                <p>
+                    <a href="mailto: mjsolidarios@wvsu.edu.ph">
+                        <i class="fa glyphicon glyphicon-envelope"></i>
+                    </a>
+                    <a href="https://github.com/mjsolidarios">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/markusjosesolid">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com/markusjosesolid">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.google.com/+MarkJosephSolidarios">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg" class="left">
+                <img src="assets/nav.svg" alt="" class="icon-md" />
+                <p>
+                    <small>
+                        <i class="glyphicon glyphicon-info-sign"></i> Use the navigation buttons or the arrow keys to proceed to the remaining slides.
+                    </small>
+                </p>
+                <h2>F</h2>
+                <p>
+                    <small>
+                        <i class="glyphicon glyphicon-info-sign"></i> You can also press
+                        <span class="highlight">&gt;</span>
+                        <span class="highlight">&gt;</span>F
+                        <span class="highlight">&lt;</span>
+                        <span class="highlight">&lt;</span> on your keyboard to show your presentation in full-screen mode.
+                    </small>
+                </p>
+                <img src="assets/explore.svg" class="icon-md" alt="" />
+                <p>
+                    <small>
+                        <i class="glyphicon glyphicon-info-sign"></i> This presentation is best explored with up-to-date web browsers.
+                    </small>
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg">
+                <img src="assets/godot-logo.png" alt="" />
+                <h2>
+                    What is Godot?
+                </h2>
+                <p class="fragment">
+                    <small>Godot is an open source game engine developed by the community. It uses a node-based system to create
+                        games - optimized by scripts for added functionality.</small>
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg" class="left">
+                <h2>
+                    Why use it for mobile app prototyping?
+                </h2>
+                <p class="fragment">
+                    We can quickly create interactive apps with this engine. It's node-based system enables us to quickly add our designs.
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg" class="left">
+                <img src="assets/playstore.png" alt="">
+                <p>
+                    We were also able to publish student's app prototype in Google Play Store with this engine because of its multi-platform capabilities.
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <p>
+                    Godot is currently on the first position among the top open source game engines on GitHub.
+                </p>
+                <img src="assets/godot-snap-01.png" alt="" class="img-md" />
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <h2>GUI</h2>
+                <img src="assets/godot-snap-02.png" alt="" class="img-md" />
+                <p>
+                    Godot&apos;s Interface. Godot can create 2D and 3D games.
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <h2>X Platform</h2>
+                <img src="assets/godot-snap-04.png" alt="" class="img-sm" />
+                <p>
+                    <small>Godot projects can be exported across multiple platforms (Desktop, Mobile, Web).</small>
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg">
+                <img src="assets/docs_logo.png" alt="" />
+                <h2>Basic Concepts</h2>
+            </section>
+            <section data-background="assets/bg0.jpg">
+                <h2>
+                    Nodes
+                </h2>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+
+                <section class="left">
+                    <img src="assets/godot-snap-03.png" alt="" />
+                    <p>Nodes</p>
+                    <p>
+                        <small>A node is a basic element for creating a game, it has the following characteristics...
+                        </small>
+                    </p>
+                </section>
+                <section class="left">
+                    <h2>Node</h2>
+                    <ul>
+                        <li>Has a name.</li>
+                        <li>Has editable properties.</li>
+                        <li>Can receive a callback to process every frame.</li>
+                        <li>Can be extended (to have more functions).</li>
+                        <li>Can be added to other nodes as children.</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="left">
+                <h2>Nodes in a Tree</h2>
+                <img src="assets/nodes.svg" alt="" />
+                <p>
+                    <small>Typical node structure: A node can have one or more child nodes. When arranged in this way, the nodes
+                        become a tree.</small>
+                </p>
+            </section>
+            <section class="left">
+                <p>
+                    In Godot, the ability to arrange nodes in this way creates a powerful tool for organizing the projects. Since different nodes
+                    have different functions, combining them allows to create more complex functions.
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg">
+                <h2>Instancing</h2>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <p class="left">
+                    Having a scene and throwing nodes into it might work for small projects, but as a project grows, more and more nodes are
+                    used and it can quickly become unmanageable. To solve this, Godot allows a project to be separated in
+                    several scenes.
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <img src="assets/scenes-01.svg" alt="" />
+                <p class="left">
+                    <small>In Godot, a scene can be created and saved to disk. As many scenes can be created and saved as desired.</small>
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <img src="assets/scenes-02.svg" alt="" />
+                <p class="left">
+                    <small>In this example, Scene B was added to Scene A as an instance.</small>
+                </p>
+            </section>
+
+            <section data-background="assets/bg0.jpg">
+                <h2>Scripting</h2>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <img src="assets/brainslug.jpg" alt="" />
+                <p class="left">
+                    <small>A script basically adds a behavior to a node. It is used to control the node functions as well as other
+                        nodes (children, parent, siblings, etc). Godot use its own scripting language (GDScript).</small>
+                </p>
+                <p class="left">
+                    <small>To learn more about GDScript, please
+                        <a href="http://docs.godotengine.org/en/latest/reference/gdscript.html">visit</a> the official documentation.</small>
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <p>
+                    Scripts can be added to individual nodes.
+                </p>
+                <img src="assets/scenes-04.svg" alt="" />
+            </section>
+            <section data-background="assets/bg0.jpg">
+                <h2>Animation</h2>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <p>
+                    Godot can also handle animations without minding the complexity of animation programming.
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <img src="assets/godot-snap-05.png" alt="" class="img-md" />
+                <p>
+                    <small>
+                        To add an animation to your project, you need an AnimationPlayer node.</small>
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <h2>Editing Animations</h2>
+                <img src="assets/godot-snap-06.png" alt="" />
+                <p class="left">
+                    <small>Animations are edited in the animation panel. Each animation property is controlled by an animation keyframe
+                        represented by the blue circles in the timeline.
+                    </small>
+                </p>
+            </section>
+            <section data-background="assets/bg0.jpg" class="left">
+                <h2>Mobile App Prototyping</h2>
+                <p>
+                    <small>Exercise instructions will be discussed by your instructor.</small>
+                </p>
+            </section>
+            <section  data-background="assets/bg0.jpg">
+                <h2>Thank You!</h2>
+                <p>
+                    <small>This presentation is made of
+                        <i class="fa glyphicon glyphicon-heart"></i> and
+                        <strong>HTML 5</strong>
+                    </small>
+                </p>
+            </section>
+        </div>
+
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function () {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function () {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }]
+        });
+    </script>
+
+</body>
+
+</html>

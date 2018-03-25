@@ -1,0 +1,42 @@
+html body p{
+  font-family: "Open Sans";
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.reveal p, .reveal li {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+p.answer {
+  font-size: 4em;
+}
+
+p.answer-sm {
+  font-size: 2em;
+}
+
+p.answer-xs {
+  font-size: 0.8em;
+}
+
+p.p-sm {
+  font-size: 0.8em;
+}
+
+p.p-xs {
+  font-size: 0.6em;
+}
+
+.left {
+  text-align: left;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+  background: none;
+}

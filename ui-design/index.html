@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>UI Design</title>
+
+	<meta name="description" content="Presentation made with reveal.js">
+	<meta name="author" content="Mark Joseph Solidarios">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<!-- Other Styles -->
+	<link rel="stylesheet" href="css/open-sans-fontface/open-sans.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/black.min.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Custom style -->
+	<link rel="stylesheet" href="css/master.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section data-background="assets/bg0.jpg">
+				<h1>UI Design</h1>
+				<p>Design Patterns and Best Practices</p>
+				<p>
+					<small>Mobile Application Development for Business Integration</small>
+				</p>
+				<p>
+					<small>Mark Joseph J. Solidarios</small>
+				</p>
+				<p>
+					<a href="mailto: mjsolidarios@wvsu.edu.ph">
+						<i class="fa glyphicon glyphicon-envelope"></i>
+					</a>
+					<a href="https://github.com/mjsolidarios">
+						<i class="fa fa-github"></i>
+					</a>
+					<a href="https://www.facebook.com/markusjosesolid">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="https://www.twitter.com/markusjosesolid">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="google.com/+MarkJosephSolidarios">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>"If a picture is worth 1000 words, an ideal UI Design is worth 1000 prototypes."</p>
+				<p>
+					<small>
+						— modified qoute from IDEO
+					</small>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>The achievement of mobile apps depends on how well the User Interface is designed.</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>Designing a good UI conversely is a very challenging process.</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/guide.png" alt="">
+				<p>...not just challenging but also tedious as hell.</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/prototype.png" alt="">
+				<p>Do you still remember your old project? Low-Fi to Hi-Fi?</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/hifi.png" alt="">			
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>I've included some of the best guidelines and practices for you so you can also use it in the future other than this
+					subject.</p>
+				<p class="fragment">
+					<small>-sirmark</small>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>This text is important, make it bigger!</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<img src="assets/1.png" alt="">
+				<p>When faced with content that needs font hierarchy, making the text bigger to give emphasis and importance usually doesn't
+					solve the problem</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/1-2.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/1-3.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Don't create multiple shades of black</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<img src="assets/img_colormap.gif" alt="">
+				<p>
+					Don't make your life difficult by moving your color picker up and down to produce different shades of black text over white
+					background.
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<h2>#000</h2>
+				<p>
+					Using black text color (#000) causes eye strains for readers.
+				</p>
+				<p class="fragment">
+					The solution is to create darker variants as an alternative. Use black with different opacity as a solution.
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/2.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/3.jpeg" alt="">
+				<p>Notice that only the opacity value is changed.</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Use spacing to separate groups</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					Aside from adding a line between two groups to show separation, using a generous space between is a better and easier solution.
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/4.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/5.jpeg" alt="">
+				<p class="fragment">- Sometimes giving more space is the best option.</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Use colors to separate rows</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>Doing row interfaces could be boring at times to design, since it only requires duplicating the component for n times.
+					But on the user side, reading them can be difficult specially if there’s no great distinction between one row to the
+					other. </p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/6.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/7.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Multiply instead of Drop shadow text</h2>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/8.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/9.jpeg" alt="">
+				<p class="fragment">A header component is best design this way.</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Line Length</h2>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/10.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>The common thing most designers do is making the line length longer so that it may fit its container. But doing so, creates
+					eye strain for our users unlike having a 45–65 characters per line which is the ideal.</p>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Don't reinvent the wheel</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>What makes a design inconsistent is when it is not component based. It is when you came to realize that you’ve made 5
+					kinds of card interface, 10 buttons, 5 heading title styles etc.</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/11.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>
+					<i class="fa fa-info-circle fa-big"></i>
+				</p>
+				<h2>Use brand colors as accents</h2>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>We usually think that branding colors must occupy a big chunk of our interface colors. We are having a hard time where
+					to showcase our client’s shocking neon yellow, orange, and pink branding colors in our clean and minimalist layout.
+					The answer? use them as accent colors.</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/12.jpeg" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<p>References</p>
+				<p>
+					<small>
+						<ul>
+							<li>https://blog.prototypr.io/ui-design-more-than-just-creating-pretty-images-cc1f46a7c81b</li>
+							<li>https://medium.com/sketch-app-sources/design-cheatsheet-274384775da9</li>
+							<li>https://github.com/gztchan/awesome-design</li>
+						</ul>
+					</small>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<h1>Thank you!</h1>
+				<p>
+					End of Presentation
+				</p>
+			</section>
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: false,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			multiplex: {
+				secret: null,
+				id: "86b673a9775c9b8f",
+				url: 'http://127.0.0.1:1948'
+			},
+			leap: {
+				naturalSwipe: false,
+				pointerOpacity: 1,
+			},
+			// Optional reveal.js plugins
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'lib/js/socket.io.min.js', async: true },
+				{ src: 'plugin/multiplex/master.js', async: true },
+				{ src: 'plugin/multiplex/client.js', async: true },
+				{ src: 'plugin/leap/leap.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+
+</html>
